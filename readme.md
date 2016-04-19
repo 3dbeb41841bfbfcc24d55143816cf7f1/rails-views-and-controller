@@ -70,7 +70,7 @@ To get started, clone down the following repo:
 **Note**: If you have trouble setting up, please "#SlackTheBack"
 
 ```bash
-git clone git@github.com:ga-wdi-exercises/tunr_rails_models_and_migrations.git
+git clone https://github.com/ga-wdi-exercises/tunr_rails_models_and_migrations.git
 cd tunr_rails_models_and_migrations
 git checkout views-controllers-starter
 git checkout -b inclass
