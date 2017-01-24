@@ -138,7 +138,7 @@ Let's write the code to make this response a reality.
 We need to first create a controller for our artists. In your terminal:
 
 ```bash
- $ touch app/controllers/artists_controller.rb
+ $ rails g controller Artists
 ```
 > **Note** the convention for naming this file: plural resource name, snake_case
 
@@ -502,9 +502,6 @@ Great, now we're protected!
 - What is the difference between render and redirect?
 - How does strong params protect us from malicious input?
 
-## Homework
-
-[Scribble](http://github.com/ga-wdi-exercises/scibble) - you're going to get a lot of practice with Rails by building your first full CRUD app - your own blog!
 
 ## Resources
 - [Rails Guides: Controllers](http://guides.rubyonrails.org/action_controller_overview.html)
